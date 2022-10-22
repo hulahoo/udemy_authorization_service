@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "authorization_service"
+version = "0.1"
+description = "Authorization service for Udemy project"
+authors = ["hulahoo <biowolf41@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.2"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.4"
+flake8 = "^5.0.4"
+djangorestframework-simplejwt = "^5.2.2"
+django-configurations = "^2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

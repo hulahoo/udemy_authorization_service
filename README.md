@@ -1,2 +1,3 @@
-# udemy_authorization_service
-Authorization service for Udemy
+# Authorization service for Udemy
+
+# Check file `send_mail.py`
